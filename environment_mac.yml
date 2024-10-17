@@ -1,0 +1,30 @@
+name: groundingdino
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - pip
+  - python
+  - pytorch::pytorch 
+  - torchvision
+  - torchaudio
+  - pip:
+    - anyio
+    - click
+    - fastapi
+    - h11
+    - huey
+    - idna
+    - opencv-python
+    - pydantic
+    - pymemcache
+    - requests
+    - sniffio
+    - starlette
+    - uvicorn
+    - transformers
+    - supervision
+    - segment-anything
+    - psutil
+    - git+https://github.com/IDEA-Research/GroundingDINO.git
+

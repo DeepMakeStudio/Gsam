@@ -1,0 +1,5 @@
+# Ignore weights directory
+GroundingDINO/weights/
+
+# Ignore all Python cache files in any directory
+**/__pycache__/
